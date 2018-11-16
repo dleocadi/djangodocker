@@ -1,10 +1,13 @@
 Project Title
+
 Docker project to create a Django container and Postgres DB
 
 Getting Started
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
+
 Docker & Docker Compose
 
 Run these commands to create and run the containers
