@@ -1,16 +1,16 @@
-Project Title
+# Project Title
 
 Docker project to create a Django container and Postgres DB
 
-Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+## Prerequisites
 
 Docker & Docker Compose
 
-Run these commands to create and run the containers
+## Run these commands to create and run the containers
 
             docker-compose run web django-admin.py startproject djrepo .
 
@@ -35,9 +35,9 @@ Access the Django container at:
             
             http://localhost:8000
 
-Authors
+## Authors
 Daniel Leocadi
 See also the list of contributors who participated in this project.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
