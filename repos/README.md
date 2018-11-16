@@ -17,14 +17,14 @@ Docker & Docker Compose
 Edit DATABASE configuration in this file djrepo/settings.py with:
             
             DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql_psycopg2',
-                'NAME': 'postgres',
-                'USER': 'postgres',
-                'HOST': 'db',
-                'PORT': 5432,
+                        'default': {
+                            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                            'NAME': 'postgres',
+                            'USER': 'postgres',
+                            'HOST': 'db',
+                            'PORT': 5432,
+                        }
             }
-}
 
 
 To start the containers run:
